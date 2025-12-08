@@ -12,7 +12,7 @@ int SSD(int n) {
           while(n>4){
         n=SSD(n);
     }
-    if(n==1 || n==7) return true;
+    if(n==1) return true;
     else return false;
     }
 };
